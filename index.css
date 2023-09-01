@@ -1,0 +1,29 @@
+@import url("./css/DEF_UI_Lib/css/index.css");
+#canvas_main {
+    position: absolute;
+}
+
+#canvas_main-box {
+    border: 1px var( --colorB) solid;
+    width: max-content;
+    height: max-content;
+}
+
+#canvas_main-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("./css/DEF_UI_Lib/img/SpritesMap.svg");
+    background-size: 1024px 1024px;
+}
+
+#__temp_dom {
+    display: none;
+    visibility: hidden;
+}
+
+#property_view {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 1em;
+}

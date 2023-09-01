@@ -1,0 +1,72 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+		{
+			"path": "D://apache24/conf",
+			"name": "httpd_Config"
+		},
+		{
+			"path": "D://apache24/bin",
+			"name": "httpd_bin"
+			// D://apache24/bin/httpd.exe
+		}
+	],
+	"settings": {
+		"editor.inlayHints.enabled": "off",
+    	"editor.fontFamily": "Ubuntu Mono derivative Powerline,Ubuntu Mono,DejaVu Sans Mono",
+		"editor.foldingStrategy": "indentation",
+		"html.completion.attributeDefaultValue": "empty",
+		"editor.formatOnSave": false,
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "variable.parameter", //形参
+					"settings": {
+						"fontStyle": "italic",
+						"foreground": "#8ff"
+					}
+				}
+			]
+		},
+		"workbench.colorCustomizations": {
+		},
+		"align-text-like-table.selector__separator": "(?: {3,})|(?:\t)",
+		"align-text-like-table.separator__align_after": "   ",
+		
+		"fileheader.configObj": {
+			"createFileTime": true,
+			"language": {
+				"js/ts/c/h/cpp/cs": {
+					"head": "/*!",
+					"middle": " * @",
+					"end": " */",
+					"functionSymbol": {
+						"head": "/** ",
+						"middle": " * @",
+						"end": " */"
+					},
+					"functionParams": "js"
+				},
+				"md": {
+					"head": "# Frankenstein_Sprite 尸块素材精灵化工具",
+					"middle": "* @",
+					"end": "#",
+					"functionParams": "md"
+				}
+			},
+			"autoAdd": false
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"obkoro1.korofileheader",
+			"albymor.increment-selection",
+			"formulahendry.auto-rename-tag",
+			"formulahendry.auto-close-tag",
+			"jock.svg",
+			"align-text-like-table.align-text-like-table"
+		]
+	}
+}
