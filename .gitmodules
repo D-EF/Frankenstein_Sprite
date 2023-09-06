@@ -1,3 +1,6 @@
 [submodule "css/DEF_UI_Lib"]
 	path = css/DEF_UI_Lib
 	url = https://github.com/D-EF/DEF_UI_Lib.git
+[submodule "js/lib/Basics"]
+	path = js/lib/Basics
+	url = https://github.com/D-EF/Basics.git
